@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Kvh_Deleteshipment</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension will delete shipment information of order</summary>
+    <description>This extension will delete all shipment information of particular order</description>
+    <notes>First Release of Extension</notes>
+    <authors><author><name>Hitesh Agrawal</name><user>hiteshmca111</user><email>hiteshagrawal84@gmail.com</email></author></authors>
+    <date>2014-07-22</date>
+    <time>16:24:15</time>
+    <contents><target name="magelocal"><dir name="Kvh"><dir name="Deleteshipment"><dir name="Block"><dir name="Adminhtml"><dir name="Order"><file name="View.php" hash="550f93d10b48bc0cad4711f4d7a168d9"/></dir><file name="Order.php" hash="4d6f422e221f5902fdaf77ff459a4a67"/></dir></dir><dir name="Helper"><file name="Data.php" hash="a5b06247339344aec72f166cedb2b6b1"/></dir><dir name="Model"><file name="Deleteshipment.php" hash="34b4f2f531cf22bac266c33da9a7d882"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="DeleteshipmentController.php" hash="5c6782ee947497b61bd0cf853a185ad1"/></dir></dir><dir name="etc"><file name="config.xml" hash="4b5fc3801a998d0ee2f83f3355c0db30"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Kvh_Deleteshipment.xml" hash="3872824499c27d0a5941cfb0b72f79e6"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

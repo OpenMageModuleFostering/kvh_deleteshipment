@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Kvh_Deleteshipment>
+      <version>0.1.0</version>
+    </Kvh_Deleteshipment>
+  </modules>
+  <frontend>
+        <routers>
+            <deleteshipment>
+                <use>standard</use>
+                <args>
+                    <module>Kvh_Deleteshipment</module>
+                    <frontName>deleteshipment</frontName>
+                </args>
+            </deleteshipment>
+        </routers>
+        <layout>
+            <updates>
+                <deleteshipment>
+                    <file>deleteshipment.xml</file>
+                </deleteshipment>
+            </updates>
+        </layout>
+    </frontend>
+	  <admin>
+        <routers>
+			<deleteshipment>
+				<use>admin</use>
+				<args>
+					<module>Kvh_Deleteshipment</module>
+					<frontName>deleteshipment</frontName>
+				</args>
+			</deleteshipment>
+        </routers>
+    </admin>
+	  <global> 
+	  
+	  <blocks>
+         
+       
+            
+      <adminhtml>
+        <rewrite>
+          <sales_order_view>Kvh_Deleteshipment_Block_Adminhtml_Order_View</sales_order_view>
+		  
+        </rewrite>
+      </adminhtml>
+    </blocks>  
+	 <models>
+            <deleteshipment>
+                <class>Kvh_Deleteshipment_Model</class> 
+            </deleteshipment> 
+      </models>
+	
+		 
+		 <helpers>
+            <deleteshipment>
+                <class>Kvh_Deleteshipment_Helper</class>
+            </deleteshipment>
+        </helpers>
+    </global>
+	        
+</config>
