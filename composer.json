@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Kvh_Deleteshipment",
+    "name": "openmage-module-fostering\/kvh_deleteshipment",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This extension will delete shipment information of order",
     "authors": [
